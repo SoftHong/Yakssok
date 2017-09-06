@@ -516,6 +516,7 @@
 				C16789561F603C6600FE8678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16789571F603C6600FE8678 /* Build configuration list for PBXNativeTarget "YakssokTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				C16789591F603C6600FE8678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C167895A1F603C6600FE8678 /* Build configuration list for PBXNativeTarget "YakssokUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				C167895C1F603C6600FE8678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
