@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C16789301F603C6600FE8678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167892F1F603C6600FE8678 /* AppDelegate.swift */; };
-		C16789321F603C6600FE8678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16789311F603C6600FE8678 /* ViewController.swift */; };
+		C16789321F603C6600FE8678 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16789311F603C6600FE8678 /* MainViewController.swift */; };
 		C16789351F603C6600FE8678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16789331F603C6600FE8678 /* Main.storyboard */; };
 		C16789371F603C6600FE8678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16789361F603C6600FE8678 /* Assets.xcassets */; };
 		C167893A1F603C6600FE8678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16789381F603C6600FE8678 /* LaunchScreen.storyboard */; };
 		C16789451F603C6600FE8678 /* YakssokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16789441F603C6600FE8678 /* YakssokTests.swift */; };
 		C16789501F603C6600FE8678 /* YakssokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167894F1F603C6600FE8678 /* YakssokUITests.swift */; };
+		C1AA0E8B1F61726500209445 /* SelfCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0E8A1F61726500209445 /* SelfCheckViewController.swift */; };
+		C1AA0E8F1F61765300209445 /* SelfCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0E8E1F61765300209445 /* SelfCheckModel.swift */; };
+		C1AA0E931F625C4400209445 /* SelfCheckResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0E921F625C4400209445 /* SelfCheckResultViewController.swift */; };
+		C1AA0E951F626E8800209445 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0E941F626E8800209445 /* DiaryViewController.swift */; };
+		C1B2AE821F61565100C6747B /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2AE811F61565000C6747B /* UIColor+CustomColor.swift */; };
+		C1B2AE841F615C7D00C6747B /* ActionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2AE831F615C7D00C6747B /* ActionListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		C167892C1F603C6600FE8678 /* Yakssok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yakssok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C167892F1F603C6600FE8678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C16789311F603C6600FE8678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16789311F603C6600FE8678 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C16789341F603C6600FE8678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16789361F603C6600FE8678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16789391F603C6600FE8678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		C167894B1F603C6600FE8678 /* YakssokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakssokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C167894F1F603C6600FE8678 /* YakssokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakssokUITests.swift; sourceTree = "<group>"; };
 		C16789511F603C6600FE8678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AA0E8A1F61726500209445 /* SelfCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfCheckViewController.swift; sourceTree = "<group>"; };
+		C1AA0E8E1F61765300209445 /* SelfCheckModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfCheckModel.swift; sourceTree = "<group>"; };
+		C1AA0E921F625C4400209445 /* SelfCheckResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfCheckResultViewController.swift; sourceTree = "<group>"; };
+		C1AA0E941F626E8800209445 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		C1B2AE811F61565000C6747B /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		C1B2AE831F615C7D00C6747B /* ActionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				C167892F1F603C6600FE8678 /* AppDelegate.swift */,
-				C16789311F603C6600FE8678 /* ViewController.swift */,
+				C16789311F603C6600FE8678 /* MainViewController.swift */,
+				C1B2AE831F615C7D00C6747B /* ActionListViewController.swift */,
+				C1AA0E941F626E8800209445 /* DiaryViewController.swift */,
+				C1AA0E8A1F61726500209445 /* SelfCheckViewController.swift */,
+				C1AA0E921F625C4400209445 /* SelfCheckResultViewController.swift */,
+				C1AA0E8E1F61765300209445 /* SelfCheckModel.swift */,
 				C16789331F603C6600FE8678 /* Main.storyboard */,
 				C16789361F603C6600FE8678 /* Assets.xcassets */,
 				C16789381F603C6600FE8678 /* LaunchScreen.storyboard */,
 				C167893B1F603C6600FE8678 /* Info.plist */,
+				C1B2AE811F61565000C6747B /* UIColor+CustomColor.swift */,
 			);
 			path = Yakssok;
 			sourceTree = "<group>";
@@ -262,7 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16789321F603C6600FE8678 /* ViewController.swift in Sources */,
+				C1AA0E8F1F61765300209445 /* SelfCheckModel.swift in Sources */,
+				C16789321F603C6600FE8678 /* MainViewController.swift in Sources */,
+				C1AA0E8B1F61726500209445 /* SelfCheckViewController.swift in Sources */,
+				C1B2AE821F61565100C6747B /* UIColor+CustomColor.swift in Sources */,
+				C1AA0E951F626E8800209445 /* DiaryViewController.swift in Sources */,
+				C1AA0E931F625C4400209445 /* SelfCheckResultViewController.swift in Sources */,
+				C1B2AE841F615C7D00C6747B /* ActionListViewController.swift in Sources */,
 				C16789301F603C6600FE8678 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
